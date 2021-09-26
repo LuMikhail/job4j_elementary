@@ -15,6 +15,7 @@ public class Point {
         double rsl = Math.sqrt(Math.pow((x2 - x1), 2) + Math.pow((y2 - y1), 2));
         return rsl;
     }
+
     public static void main(String[] args) {
         double result = Point.distanceOne(0, 0, 3, 0);
         double result2 = Point.distanceTwo(0, 0, 4, 0);
@@ -23,5 +24,4 @@ public class Point {
         System.out.println("расстояния между точками2 (0, 0) to (4, 0) " + result2);
         System.out.println("расстояния между точками3 (0, 0) to (1, 0) " + result3);
     }
-
 }
