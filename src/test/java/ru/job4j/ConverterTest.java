@@ -21,5 +21,6 @@ public class ConverterTest {
         float outdol = Converter.rubleToDollar(dol);
         float eps = 0.0001f;
         Assert.assertEquals(expecteddol, outdol, eps);
-    }
+            }
+
 }
