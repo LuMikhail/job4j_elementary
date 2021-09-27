@@ -9,4 +9,11 @@ public class MathFunction {
         return first * second;
     }
 
+    public static double multiply2(double first, double second) {
+        return (first - second + first / second);
+    }
+
+    public static double multiply3(double first, double second) {
+        return (first + second) + (first * second) + (first - second + first / second);
+    }
 }
