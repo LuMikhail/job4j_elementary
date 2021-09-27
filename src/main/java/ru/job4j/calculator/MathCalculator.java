@@ -1,6 +1,5 @@
 package ru.job4j.calculator;
 
-
 public class MathCalculator {
     public static double sumAndMultiply(double first, double second) {
         return ru.job4j.math.MathFunction.sum(first, second)
