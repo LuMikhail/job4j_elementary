@@ -25,7 +25,7 @@ public class Converter {
         float expecteddol = 2.3333333f;
         float outdol = Converter.rubleToDollar(dol);
         boolean passeddol = expecteddol == outdol;
-        System.out.println("140 rubles are 2.3333333 Test result : " + passeddol);
+        System.out.println("140 rubles are 2.2.3333333f Test result : " + passeddol);
     }
 
 }
