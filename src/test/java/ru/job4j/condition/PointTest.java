@@ -19,7 +19,7 @@ public class PointTest {
     @Test
     public void distanceTwo() {
         double expected = 4;
-        int x1 = 0;
+        int x1 = 1;
         int y1 = 0;
         int x2 = 4;
         int y2 = 0;
@@ -29,7 +29,7 @@ public class PointTest {
 
     @Test
     public void distanceThree() {
-        double expected = 1;
+        double expected = 2.23;
         int x1 = 1;
         int y1 = 0;
         int x2 = 2;
@@ -37,6 +37,5 @@ public class PointTest {
         double out = Point.distanceThree(x1, y1, x2, y2);
         Assert.assertEquals(expected, out, 0.01);
     }
-
 }
 
