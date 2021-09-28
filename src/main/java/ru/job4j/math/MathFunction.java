@@ -5,15 +5,15 @@ public class MathFunction {
         return first + second;
     }
 
-    public static double multiply(double first, double second) {
+    public static double multipli(double first, double second) {
         return first * second;
     }
 
-    public static double multiply2(double first, double second) {
+    public static double subtracDivision(double first, double second) {
         return (first - second + first / second);
     }
 
-    public static double multiply3(double first, double second) {
+    public static double multiSumSubtrac(double first, double second) {
         return (first + second) + (first * second) + (first - second + first / second);
     }
 }
