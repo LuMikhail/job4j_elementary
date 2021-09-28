@@ -14,6 +14,6 @@ public class MathFunction {
     }
 
     public static double multiSumSubtrac(double first, double second) {
-        return (first + second) + (first * second) + (first - second + first / second);
+         return (first + second) + (first * second) + (first - second + first / second);
     }
 }
