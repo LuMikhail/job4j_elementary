@@ -16,7 +16,7 @@ public class FactorialTest {
     @Test
     public void wenCalculateFactorialForZeroThenOne() {
         int n = 0;
-        int result = Factorial.calcone(n);
+        int result = Factorial.calc(n);
         int expected = 1;
         Assert.assertEquals(expected, result);
     }
