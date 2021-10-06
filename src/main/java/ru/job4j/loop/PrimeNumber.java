@@ -6,7 +6,7 @@ public class PrimeNumber {
         for (int number = 1; number <= finish; number++) {
             if (CheckPrimeNumber.check(number)) {
                  count++;
-            }
+                }
         }
         return count;
     }
