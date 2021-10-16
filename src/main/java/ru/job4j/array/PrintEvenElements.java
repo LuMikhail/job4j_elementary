@@ -8,8 +8,8 @@ public class PrintEvenElements {
             System.out.println(
                     "Текущий элемент массива начиная с последнего: "
                             + numbers[numbers.length - 1 - i]
-            );
+             );
+            }
         }
     }
-}
 }
