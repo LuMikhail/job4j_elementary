@@ -17,14 +17,15 @@ import org.junit.Test;
         }
 
         @Test
-        public void whenHasMonoVertical() {
+        public void whenHasMonoHorizontalFalse() {
             char[][] input = {
-                    {' ', ' ', 'X'},
-                    {' ', ' ', 'X'},
-                    {' ', ' ', 'X'},
+                    {' ', ' ', ' '},
+                    {' ', ' ', ' '},
+                    {' ', ' ', ' '},
             };
-            int column = 2;
-            boolean result = MatrixCheck.monoVertical(input, column);
+            int row = 0;
+            boolean result = MatrixCheck.monoHorizontal(input, row);
             Assert.assertTrue(result);
+
         }
     }
