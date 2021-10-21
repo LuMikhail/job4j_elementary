@@ -23,9 +23,8 @@ import org.junit.Test;
                     {' ', ' ', ' '},
                     {' ', ' ', ' '},
             };
-            int row = 0;
+            int row = 1;
             boolean result = MatrixCheck.monoHorizontal(input, row);
-            Assert.assertTrue(result);
-
+            Assert.assertFalse(result);
         }
     }
