@@ -41,6 +41,18 @@ import org.junit.Test;
         }
 
         @Test
+        public void whenHasMonoVerticalOne() {
+            char[][] input = {
+                    {' ', 'X', ' '},
+                    {' ', 'X', ' '},
+                    {' ', 'X', ' '},
+            };
+            int column = 1;
+            boolean result = MatrixCheck.monoVertical(input, column);
+            Assert.assertTrue(result);
+        }
+
+        @Test
         public void whenHasMonoVerticalFalse() {
             char[][] input = {
                     {' ', 'X', ' '},
