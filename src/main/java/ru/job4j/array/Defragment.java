@@ -11,9 +11,9 @@ public class Defragment {
                         array[nullidex] = temp;
                         break;
                     }
-                    }
                 }
             }
-            return array;
+        }
+        return array;
     }
 }
